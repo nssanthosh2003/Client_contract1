@@ -1,0 +1,13 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+python-multipart>=0.0.9
+pydantic>=2.7
+pydantic-settings>=2.3
+pymupdf>=1.24
+watchdog>=4.0
+python-dateutil>=2.9
+reportlab>=4.2          # only used by scripts/make_samples.py
+anthropic>=0.40         # optional: enables the LLM extraction agent
+pytesseract>=0.3.10     # optional: OCR for scanned PDFs (needs the tesseract binary)
+Pillow>=10.0            # optional: used with pytesseract

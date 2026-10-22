@@ -1,0 +1,4 @@
+{
+  "Acme Corporation": { "continent": "North America", "country": "United States", "size": "Enterprise" },
+  "Initech": { "continent": "Asia", "country": "India", "size": "Large" }
+}
